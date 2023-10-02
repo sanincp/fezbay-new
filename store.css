@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none !important;
+}
+body{
+    overflow-x: hidden;
+    background: #b6ddf7 !important;
+}
+.card-btn{
+    border-radius: 5px;
+    background: #47c8e5 !important;
+    color: white !important;
+}
+.card-icon{
+    color: #ff5a96;
+}
+.card{
+    width: 80% !important;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px !important;
+}
+.hight-width img{
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+  height: 13rem !important;
+  width: 100% !important;
+}
