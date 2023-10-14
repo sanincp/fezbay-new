@@ -134,7 +134,7 @@ html, body {
     z-index: 1;
   }
   #navSm a{
-    color: white;
+    color: #79c2f3;
   }
   .sm-nav-text{
     font-size: 12px;
@@ -142,11 +142,12 @@ html, body {
   .smDiv1{
     border-bottom: #ff5a96 2px solid;
     height: 4.1rem;
-    background: #79c2f3;
+    color: #79c2f3 !important;
   }
   .smDiv2{
     border-right:#ff5a96 2px solid ;
     height: 4.1rem;
+    color: #79c2f3 !important;
   }
 }
 footer p {

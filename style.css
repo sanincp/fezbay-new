@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
 body{
     overflow-x: hidden;
     width: 100% !important;
@@ -7,7 +8,7 @@ body{
     padding: 0 0 !important;
 }
   .carousel-indicators button{ 
-    background-color: #330768 !important;
+    background-color: #79c2f3 !important;
     top: 5rem !important;
   }
   .carousel-indicators .active {
@@ -59,12 +60,13 @@ body{
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
       }
       .products-div{
-        height: 85vh;
+        height: 100%;
         position: relative;
         width: 100%;
-        background: #79c2f3;
+        background: #2db2d9;
       }
       .products-text{
+        font-weight: bold;
         font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
       }
       .owl-nav span{
@@ -138,4 +140,83 @@ body{
         height: 370px !important;
         width: 300px !important;
         padding: 45px 20px !important;
+      }
+      .store-title{
+      font-family: 'Concert One', sans-serif;
+       font-weight: bold;
+       color: #79c2f3;
+      }
+      .outlet-card{
+        background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(145, 211, 255, 0.243));
+        width: 280px;
+        height: 500px;
+        border-radius: 10px;
+        margin-top: -1rem !important;
+        margin-left: 5rem;
+      }
+      .card-legend{
+        margin-left: 7rem;
+        background: #79c2f3;
+        display: inline;
+        color: white;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 19px;
+        border-radius: 7px;
+      }
+      .shop-icon{
+        background: #79c2f3;
+        border-radius: 60px;
+        margin-left: 1.2rem;
+        padding: 16px 14px;
+        margin-top: 2.5rem;
+        color: white;
+      }
+      .card-head{
+        font-family: 'Concert One', sans-serif;
+        font-weight: bold;
+       padding-left: 1.2rem !important;
+        margin-top: 1rem !important;
+        color: #2db2d9;
+      }
+      .card-p{
+       padding-left: 1.2rem !important;
+       font-weight: 400;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+       font-weight: bold;
+      }
+      .card-time{
+        padding-left: 1.2rem !important;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+        font-weight: bold;
+        line-height: 0.4rem;
+        display: inline-block;
+      }
+      .card-time-1{
+        margin-top: 1rem;
+      }
+      .time-icon{
+        font-size: 18px;
+        color: #2db2d9;
+      }
+      .call-btn{
+        color: white;
+        background: #2db2d9;
+        border-radius: 60px;
+        display: inline;
+        text-decoration: none !important;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        margin-left: 1.2rem;
+      }
+      @media (max-width: 500px){
+        .outlet-card{
+          margin: 0 2rem;
+        }
+        .store-btn{
+          display: none;
+        }
+        .card-legend{
+          margin-left: 4rem;
+        }
       }
