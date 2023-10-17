@@ -76,3 +76,8 @@ body{
   .card-title-main-2{
     color: #ff689f !important;
   }
+  @media (max-width: 500px){
+    .product-card p{
+      font-size: .8rem !important;
+    } 
+  }
