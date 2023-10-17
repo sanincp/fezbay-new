@@ -50,6 +50,7 @@ body{
     margin-top: 5rem !important;
   }
   .card-title-mini-1{
+    margin-bottom: -.1rem;
     color: #ff689f !important;
   }
   .card-title-main-1{
@@ -68,6 +69,7 @@ body{
     background: #ffa9c9;
   }
   .card-title-mini-2{
+    margin-bottom: -.1rem;
     color: #2db2d9 !important;
   }
   .card-title-main-2{

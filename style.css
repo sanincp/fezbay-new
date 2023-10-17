@@ -228,6 +228,9 @@ body{
         .row-1{
           display: block !important;
         }
+        #product-div-1{
+          margin-top: 15rem !important;
+        }
       }
       @media (min-width: 500px){
         .lg-about{
