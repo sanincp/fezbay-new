@@ -1,152 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
 body{
   overflow-x: hidden;
 }
-.product-page{
-  background: #2eb2d9;
-}
-.image-box {
-  margin: auto;
-  overflow: hidden;
-  width: 90% !important;
-  border-radius: 50px;
-}
-.image-box img {
-  transition: all 2s;
-  display: block;
-  width: 100%;
-  height: auto;
-  transform: scale(1);
-}
-.image-box:hover img {
-  transform: scale(1.111);
-  cursor: pointer;
-}
-.shop-item {
-  margin-bottom: 25px;
-  padding: 15px;
-  box-shadow: 0 0 40px 5px rgb(0 0 0/5%);
-}
-.shop-item-info {
-  padding-top: 7px;
-  text-align: center;
-}
-.shop-item-rate {
-  margin-bottom: 5px;
-  color: #ff5a96;
-}
-.shop-item-title {
-  font-size: 19px;
-  color: #49bef2;
-  transition: all 0.5s ease-in-out;
-}
-.shop-item-title:hover {
-  color: #ff5a96;
-}
-.shop-item-price {
-  font-size: 18px;
-  color: #ff5a96;
-  font-weight: 700;
-  margin-top: 5px;
-}
-.shop-item-price del {
-  color: #7a8a9e;
-  margin-right: 10px;
-  font-weight: 500;
-}
-.shop-item-img {
-  position: relative;
-  z-index: 1;
-}
-.shop-item-img::before {
-  content: "";
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  position: absolute;
-  background: rgba(240, 98, 174, 0.8);
-  z-index: 2;
-  transform: scale(0.9);
-  visibility: hidden;
-  opacity: 0;
-  transition: all 0.3s linear 0s;
-}
-.shop-item:hover .shop-item-img::before {
-  transform: scale(1);
-  visibility: visible;
-  opacity: 0.8;
-}
-.shop-item-sale {
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  line-height: 47px;
-  border-radius: 50%;
-  text-align: center;
-  right: 10px;
-  top: 10px;
-  font-size: 16px;
-  color: #fff;
-  background: #ff5a96;
-}
-.shop-item-meta {
-  position: absolute;
-  top: 40px;
-  left: 0;
-  visibility: hidden;
-  opacity: 0;
-  z-index: 3;
-  transition: all 0.5s ease-in-out;
-}
-.shop-item-meta a {
-  display: block;
-  width: 40px;
-  height: 40px;
-  line-height: 43px;
-  border-radius: 50px;
-  text-align: center;
-  background: #fff;
-  color: #49bef2;
-  margin-bottom: 15px;
-  font-size: 18px;
-}
-.shop-item-meta a:hover {
-  background: #49bef2;
-  color: #fff;
-}
-.shop-item:hover .shop-item-meta {
-  left: 20px;
-  visibility: visible;
-  opacity: 1;
-}
-.shop-cart-btn {
-  position: absolute;
-  bottom: 40px;
-  left: 0;
-  right: 0;
-  text-align: center;
-  z-index: 3;
-  visibility: hidden;
-  opacity: 0;
-  transition: all 0.3s linear 0s;
-}
-.shop-item-btn {
-  background: #0b2154;
-  color: #fff;
-  padding: 10px 25px;
-  font-weight: 500;
-  text-transform: uppercase;
-  transition: all 0.5s ease-in-out;
-}
-.shop-item-btn:hover {
-  background: #fff;
-  color: #d81324;
-}
-.shop-item-btn i {
-  margin-right: 5px;
-}
-.shop-item:hover .shop-cart-btn {
-  bottom: 60px;
-  visibility: visible;
-  opacity: 1;
-}
+.store-title{
+  font-family: 'Concert One', sans-serif;
+   font-weight: bold;
+   color: #79c2f3;
+  }
+  .wave-bottom{
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  .product-card{
+    width: 320px;
+    height: 110%;
+    border-radius: 20px;
+  }
+  .product-card-1{
+    background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(145, 211, 255, 0.65));
+  }
+  .card-up{
+    margin-top: -12%;
+    width: 230px;
+    height: 230px;
+    border-radius: 15%;
+    position: relative;
+    margin-left: 2.6rem;
+  }
+  .card-up-1{
+    background: #aaddff;
+  }
+  .card-up img{
+    height:360px;
+    width: 360px;
+    margin-top: -45% !important;
+    margin-left: -45% !important;
+  }
+  .product-card p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+    font-weight: bold;
+    line-height: 1.5rem;
+    padding: 0 2.5rem;
+    color: rgb(89, 89, 89) !important;
+  }
+  .product-div{
+    margin-top: 5rem !important;
+  }
+  .card-title-mini-1{
+    color: #ff689f !important;
+  }
+  .card-title-main-1{
+    color: #2db2d9 !important;
+  }
+  li {
+    float: left;
+  }
+  .shop-item-rate {
+    color: rgb(255, 217, 2);
+  }
+  .product-card-2{
+    background-image: linear-gradient(to top, rgba(255,0,0,0), rgb(255, 183, 209) ) !important;
+  }
+  .card-up-2{
+    background: #ffa9c9;
+  }
+  .card-title-mini-2{
+    color: #2db2d9 !important;
+  }
+  .card-title-main-2{
+    color: #ff689f !important;
+  }
