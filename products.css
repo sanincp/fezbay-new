@@ -28,7 +28,7 @@ body{
     height: 230px;
     border-radius: 15%;
     position: relative;
-    margin-left: 2.6rem;
+    margin-left: 2.9rem;
   }
   .card-up-1{
     background: #aaddff;
@@ -42,6 +42,7 @@ body{
   .product-card p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
     font-weight: bold;
+    font-size: 1rem;
     line-height: 1.5rem;
     padding: 0 2.5rem;
     color: rgb(89, 89, 89) !important;
