@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
 * {
     box-sizing: border-box;
-    text-decoration: none !important;
 }
 body{
     overflow-x: hidden;
-    background: #2eb2d9 !important;
 }
+.store-title{
+    font-family: 'Concert One', sans-serif !important;
+     font-weight: bold !important;
+     color: #79c2f3 !important;
+    }
 .card-btn{
     border-radius: 5px;
     background: #47c8e5 !important;
