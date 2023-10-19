@@ -1,23 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Germania+One&family=Holtwood+One+SC&family=Luckiest+Guy&family=Roboto+Condensed&family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
 body{
     overflow-x: hidden;
 }
-.title-main{
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
-}
-.about-area{
-    background: #2eb2d9;
-}
+.store-title{
+  font-family: 'Concert One', sans-serif !important;
+   font-weight: bold !important;
+   color: #79c2f3 !important;
+  }
 .about-right{
     margin-top: -4rem !important;
 }
 .about-main{
     width: 100%;
     margin: 0 0;
-}
-.site-title{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: white;
 }
 .bi-check-lg{
     color: #ff5a96;

@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+.store-title{
+  font-family: 'Concert One', sans-serif !important;
+   font-weight: bold !important;
+   color: #79c2f3 !important;
+  }
 .contact-wrapper {
   position: relative;
 }
 .contact-info{
   background: #fff;
 }
-.contact-area{
-  background: #2eb2d9;
-}
+
 .contact-form {
   background: #fff;
   padding: 30px;

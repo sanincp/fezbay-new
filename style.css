@@ -210,6 +210,9 @@ body{
         margin-left: 1.2rem;
       }
       @media (max-width: 500px){
+        #carousel1{
+          margin-top: -1rem !important;
+        }
         .flip-div{
           display: none;
         }
@@ -437,4 +440,21 @@ body{
           outline-color: #8dd2ff;
         }
       }
+      .owl-prev, .owl-next {
+        position: absolute;
+        top: 0;
+        height: 100%;
+      }
       
+      .owl-prev {
+        left: 7px;
+      }
+      
+      .owl-next {
+        right: 7px;
+      }
+      
+      /* removing blue outline from buttons */
+      button:focus, button:active {
+         outline: none;
+      }
