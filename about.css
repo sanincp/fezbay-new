@@ -2,6 +2,9 @@
 body{
     overflow-x: hidden;
 }
+p{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif  !important; 
+}
 .store-title{
   font-family: 'Concert One', sans-serif !important;
    font-weight: bold !important;
