@@ -3,9 +3,9 @@ body{
     overflow-x: hidden;
 }
 p{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif  !important;
-  font-size: 18px !important;
-  font-weight: bold; 
+  font-family: Helvetica !important;
+  font-size: 17px !important;
+  color: rgb(62, 62, 62) !important; 
 }
 .store-title{
   font-family: 'Concert One', sans-serif !important;
