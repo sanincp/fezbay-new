@@ -3,7 +3,9 @@ body{
     overflow-x: hidden;
 }
 p{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif  !important; 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif  !important;
+  font-size: 18px !important;
+  font-weight: bold; 
 }
 .store-title{
   font-family: 'Concert One', sans-serif !important;
@@ -150,6 +152,16 @@ p{
     background-color: #ff5a96;
     color: #fff;
   }
-  .service-details h3 {
-    color: #0b2154;
+  .about-list i{
+    color: #49bef2 ;
   }
+  .call-btn{
+    color: white;
+    background: #2db2d9;
+    border-radius: 60px;
+    display: inline;
+    text-decoration: none !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+  }
+  
