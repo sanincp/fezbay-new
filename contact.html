@@ -36,7 +36,7 @@
       <div id="navSm" class="ul-sm">
         <div class="row text-center text-uppercase smDiv1">
           <div class="col smDiv2">
-            <a href="products.html">
+            <a href="products.html" class="text-decoration-none">
             <p class="sm-nav-text fw-bold">
               <i class="fa-solid fa-ice-cream fs-1 mt-2 pb-1"></i><br>
               Products
@@ -44,7 +44,7 @@
           </a>
           </div>
           <div class="col">
-            <a href="store.html">
+            <a href="store.html" class="text-decoration-none">
             <p class="fw-bold sm-nav-text">
               <i class="bi bi-shop fs-1"></i><br>
               stores
@@ -54,7 +54,7 @@
         </div>
         <div class="row text-center text-uppercase smDiv1">
           <div class="col smDiv2">
-            <a href="contact.html">
+            <a href="contact.html" class="text-decoration-none">
             <p class="sm-nav-text fw-bold">
               <i class="bi bi-envelope fs-1 mt-2 pb-1  "></i><br>
               contact
@@ -62,7 +62,7 @@
           </a>
           </div>
           <div class="col smDiv2">
-            <a href="about.html">
+            <a href="about.html" class="text-decoration-none">
             <p class="sm-nav-text fw-bold">
               <i class="bi bi-chat fs-1 mt-2 pb-1  "></i><br>
               about
@@ -159,12 +159,12 @@
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
-                        <input type="email" class="form-control" name="email" placeholder="Your Email" required />
+                        <input type="number" class="form-control" name="number" placeholder="Mobile Number" required />
                     </div>
                 </div>
             </div>
             <div class="form-group">
-                <input type="text" class="form-control" name="subject" placeholder="Your Place" required />
+                <input type="text" class="form-control" name="place" placeholder="Your Place" required />
             </div>
             <div class="form-group">
                 <textarea name="message" cols="30" rows="5" class="form-control" placeholder="Your Message"></textarea>
@@ -188,8 +188,7 @@
                 const whatsappNumber = "+919496362114";
 
                 // You can customize the message here
-                const message = `Name: ${form.name.value}%0AEmail: ${form.email.value}%0ASubject: ${form.subject.value}%0AMessage: ${form.message.value}`;
-
+                const message = `Name: ${form.name.value}%0APhone: ${form.number.value}%0APlace: ${form.place.value}%0AMessage: ${form.message.value}`;
                 // Construct the WhatsApp URL
                 const whatsappUrl = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${message}`;
 
